@@ -1,5 +1,5 @@
 .navbar{
-  height:90px;
+  height:50px;
   background-color: #fff;
 }
 .navbar-brand {
@@ -10,7 +10,7 @@
 .userbtn {
     margin-right: 8em;
     fill: var(--color-primary);
-    font-size: 0.2em;
+    font-size: 0.1em;
     border: none;
     background:none;
   }
@@ -39,7 +39,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .dropdown-content svg{
     margin-right: 1em;
@@ -51,5 +51,3 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}

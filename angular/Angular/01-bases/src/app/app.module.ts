@@ -6,17 +6,24 @@ import { FormsModule } from '@angular/forms';
 import {NavBarComponent} from './components/navbar/navBar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {LandigPageHeaderComponent} from './components/landigPageHeader/landigPageHeader.component';
+import { CarouselComponent } from './carousel/carousel.component';
+
+import {CarouselModule} from 'primeng/carousel';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    LandigPageHeaderComponent
+    LandigPageHeaderComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
-
+    FormsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
