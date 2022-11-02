@@ -14,7 +14,7 @@
 .p-carousel-prev-icon.pi.pi-chevron-left,
 .p-carousel-prev-icon.pi.pi-chevron-right
 {
-    color:blue;
+    color: var(--color-primary);
     height:20px;
 }
 
@@ -28,5 +28,6 @@
     font-size: 35px;
     margin:1.2em 0 0.8em 0.5em;
     font-family: 'Din Alternate Bold', 'arial Bold';
-
+    padding-left: 0.85em;    
 }
+

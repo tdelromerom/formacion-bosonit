@@ -20,6 +20,10 @@
         font-weight: normal;
         src: local('DIN Alternate Bold'), url('assets/fonts/DINAlternate-Bold.woff') format('woff');
     }
+body{
+    overflow: hidden;
+    overflow-y:scroll;
+}
 
 H1,H2,H3{
     font-family: 'Din Alternate Bold', 'arial Bold';
@@ -33,3 +37,13 @@ button{
     font-family: 'Din Alternate Bold';
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
