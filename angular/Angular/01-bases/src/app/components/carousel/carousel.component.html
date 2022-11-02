@@ -1,6 +1,5 @@
-<div class="carousel">
-    <div class="carousel-box">
-        <!--DATA HERE-->
+
+        <!--DATA HERE
     </div>
 
     <button class="switch-left slider-button">
@@ -13,22 +12,16 @@
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg>
     </button>
-</div>
+-->
+            
 
-<p-carousel [numVisible]="3" [numScroll]="3" [circular]="false">
-        <div class="product-item">
-            <div class="product-item-content">
-                <div class="mb-3">
-                    <img src="../../assets/images/gazte.jpeg" class="product-image" />
-                </div>
-                <div>
-                    <h4 class="mb-1">NOMBRE</h4>
-                    <h6 class="mt-0 mb-3">PRECIO</h6>
-                    <span>ESTADO</span>
-                    <div class="car-buttons mt-5">
-                    </div>
-                </div>
-            </div>
-        </div>
-</p-carousel>
+    <p-carousel [value]="plan" [numVisible]="4" [numScroll]="2" [responsiveOptions]="responsiveOptions">
+        <ng-template pTemplate="header">
+            <h5>Eventos hoy</h5>
+        </ng-template>
+        <ng-template let-car pTemplate="item">
+            <img src="../../../assets/images/gazte.jpeg" height="170px" width="auto" alt="imagen"/>
+        </ng-template>
+    </p-carousel>
 
+            

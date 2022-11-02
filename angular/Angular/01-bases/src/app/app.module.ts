@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import {NavBarComponent} from './components/navbar/navBar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {LandigPageHeaderComponent} from './components/landigPageHeader/landigPageHeader.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 import {CarouselModule} from 'primeng/carousel';
 
@@ -23,8 +23,7 @@ import {CarouselModule} from 'primeng/carousel';
   imports: [
     BrowserModule,
     FormsModule,
-    CarouselModule
-  ],
+    CarouselModule,  ],
   providers: [],
   bootstrap: [AppComponent]
 })
